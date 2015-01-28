@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		}
 		
 //		String charset=HttpsClientUtils.DEFAULT_CHARSET;
+		//222
     	String str;
 		try {
 			str = HttpsClientUtils.doPost("https://license.dtri.com/WCMLicense/RegisterPlayer.do?key=xxxxx&mac=111111", null, "utf-8", 5000, 0);
